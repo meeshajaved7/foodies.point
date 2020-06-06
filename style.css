@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+ul, li, a{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.bg{
+    background-color: #ecb5af86;
+    padding: 20px !important;
+}
+.navbar{
+    background-color: #c0392b !important;
+   
+}
+.nav-link{
+    color: white !important;
+    font-size: large;
+}
+.btn{
+    border: 1px solid #fff;
+    color: #fff !important;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1{
+    color: #fff !important ;
+}
+
+.btn1:hover{
+    color: #fff;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #fff;
+    z-index: -1;
+    transition: 0.8s;
+}
+.btn1::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn1::before{
+    height: 180%;
+}
+
+.btn1:hover::before{
+    height: 0%;
+}
+
+.marq{
+    background-color: #c0392b;
+    color: #fff;
+}
+.card{
+    margin: 5px;
+}
+.about{
+    border: 3px dotted #c0392b;
+    background-image: url(image/city-restaurant-lunch-outside.jpg);
+    background-size: cover;
+    color: red;
+}
+.about1{
+    border: 3px solid #c0392b;
+    background-color: #fcdcd8;
+}
+.light{
+    background-color: #c0392b;
+    
+}
+i{
+    color: #c0392b;
+    
+}
+.top{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 40px;
+}
+.no-scroll{
+    z-index: 1;
+    overflow: visible !important;
+}
+.bar1{
+  
+    padding: 10px;
+    border-color: #c0392b;
+    background-color: #ffded9;  
+    border-style: double;  
+    position: sticky;
+    top:1px;
+    text-align: center;
+    /* position: sticky !important; */
+  
+}
+.bar2{
+    padding: 10px;
+    
+    border-color: #c0392b;
+    background-color: #ffded9;  
+    border-style: double;
+}
+.bar3{ 
+    padding: 10px;
+    border-color: #c0392b;
+    background-color: #ffded9;
+   
+    border-style: double;
+    position: sticky ; 
+    top:1px
+   
+    
+}
+h4,h3 {
+    text-shadow: 4px 0 black, 0 -2px #c0392b !important;
+    text-shadow: black;
+}
+  
